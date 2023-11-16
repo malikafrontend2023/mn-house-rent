@@ -337,7 +337,7 @@ select:-webkit-autofill:focus {
 .services {
   position: absolute;
   top: 570px;
-  left: 165px;
+  left: center;
   z-index: 1;
 }
 
