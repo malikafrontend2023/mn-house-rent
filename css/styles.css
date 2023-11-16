@@ -1,3 +1,72 @@
+/* CUSTOM-PROPS */
+:root {
+  --accent-color: #59c154;
+  --accent-color-30: rgba(89, 193, 84, 0.3);
+  --dark: #112718;
+  --asmut-marble: #e8f0f1;
+  --asmut-metal : #6a8182;
+  --white-40: rgba(255, 255, 255, 0.4);
+
+  --font-family-heading: "Suisse Intl", "Arial", sans-serif;
+}
+
+
+/* FONT-FACE */
+@font-face {
+  font-family: "Suisse Intl";
+  src: url("../fonts/SuisseIntl-Medium.woff2") format("woff2"),
+  url("../fonts/SuisseIntl-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/Manrope-SemiBold.woff2") format("woff2"),
+  url("../fonts/Manrope-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/Manrope-Regular.woff2") format("woff2"),
+  url("../fonts/Manrope-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/Manrope-Medium.woff2") format("woff2"),
+  url("../fonts/Manrope-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/Manrope-Bold.woff2") format("woff2"),
+  url("../fonts/Manrope-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Suisse Intl";
+  src: url("../fonts/SuisseIntl-SemiBold.woff2") format("woff2"),
+  url("../fonts/SuisseIntl-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 /* GLOBAL */
 html {
   box-sizing: border-box;
@@ -17,11 +86,12 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: "Arial", sans-serif;
+  font-family: "Manrope", "Arial", sans-serif;
+  font-weight: 400;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 20.5px;
   background-color: #fff;
-  color: #222;
+  color: #000;
 }
 
 img {
@@ -72,9 +142,9 @@ select:-webkit-autofill:focus {
 /* CONTAINER */
 .container {
   width: 100%;
-  max-width: 1200px;
-  padding-left: 50px;
-  padding-right: 50px;
+  max-width: 1480px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
 }
